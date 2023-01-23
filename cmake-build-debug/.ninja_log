@@ -1,0 +1,8 @@
+# ninja log v5
+1	182	6961562477928974	Huffman_autogen/timestamp	e9d16f4888430f64
+1	182	6961562477928974	Huffman_autogen/mocs_compilation.cpp	e9d16f4888430f64
+1	182	6961562477928974	C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/Huffman_autogen/timestamp	e9d16f4888430f64
+1	182	6961562477928974	C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/Huffman_autogen/mocs_compilation.cpp	e9d16f4888430f64
+189	245	6961562479173802	CMakeFiles/Huffman.dir/Huffman_autogen/mocs_compilation.cpp.obj	f8a3adfc436a1f0e
+183	1397	6961562490701664	CMakeFiles/Huffman.dir/main.cpp.obj	210412183c4e5c5b
+1410	1796	6961562492317777	Huffman.exe	5d5c08514abe1ce5
