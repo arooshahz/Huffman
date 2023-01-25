@@ -1,25 +1,53 @@
-#include "Huffman.h"
+#include "Encode.h"
 #include<bits/stdc++.h>
+
 using namespace std;
+struct node {
+    char str;
+    int frequency;
+};
 
-void Huffman::getFrequencies(char* str) {
+class Compare {
+public:
+    bool operator()(node *below, node *above) {
+        if (below->frequency > above->frequency) {
+            return true;
+        }
 
 
-    map<char , int >m;
+        return false;
+    }
+};
 
-    map<char , int >::iterator itr;
-int i=0;
-    while(str) {
+void Encode::getFrequencies(char *str) {
+
+    map<char, int>::iterator itr;
+    map<char, int> m;
+
+
+    priority_queue<node *, vector<node *>, Compare> pq;
+
+
+    int i = 0;
+    while (str[i]) {
         m[str[i]]++;
-    i++;
+        i++;
     }
 
 
+    for (itr = m.begin(); itr != m.end(); itr++) {
+
+        qInfo() << itr->first << "->" << itr->second;
+
+        pq.push(new node{itr->first, itr->second});
 
 
+    }
 
-}
-void Huffman::buildTree() {
+    while (!pq.empty()) {
+        cout << ' ' << pq.top()->str << "->" << pq.top()->frequency;
+        pq.pop();
+    }
 
 
 }

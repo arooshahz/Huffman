@@ -14,7 +14,6 @@ Huffman_autogen/timestamp: \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake \
-  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckIncludeFile.c.in \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckIncludeFile.cmake \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckLibraryExists.cmake \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
@@ -119,4 +118,6 @@ Huffman_autogen/timestamp: \
   CMakeFiles/3.22.3/CMakeRCCompiler.cmake \
   CMakeFiles/3.22.3/CMakeSystem.cmake \
   ../main.cpp \
+  ../src/Encode.cpp \
+  ../src/Encode.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/cmake/win/bin/cmake.exe

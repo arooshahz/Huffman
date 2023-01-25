@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(Huffman main.cpp)
+add_executable(Huffman main.cpp src/Encode.h src/Encode.cpp)
 target_link_libraries(Huffman
         Qt::Core
         Qt::Gui

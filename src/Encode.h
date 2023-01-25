@@ -1,12 +1,13 @@
-#ifndef HUFFMAN_HUFFMAN_H
-#define HUFFMAN_HUFFMAN_H
+#ifndef HUFFMAN_ENCODE_H
+#define HUFFMAN_ENCODE_H
 
+#include <QApplication>
 
-class Huffman {
+class Encode {
 public:
-    void getFrequencies(char*);
-    void buildTree();
+    void getFrequencies(char *);
+
 };
 
 
-#endif //HUFFMAN_HUFFMAN_H
+#endif //HUFFMAN_ENCODE_H

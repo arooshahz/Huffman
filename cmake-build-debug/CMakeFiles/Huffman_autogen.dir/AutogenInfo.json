@@ -65,7 +65,6 @@
 		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckIncludeFile.cmake",
 		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake",
 		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CheckIncludeFile.c.in",
 		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/FindPackageMessage.cmake",
 		"C:/Qt/6.2.4/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
@@ -225,7 +224,15 @@
 	"CMAKE_SOURCE_DIR" : "C:/Users/Lenovo/Desktop/Huffman",
 	"DEP_FILE" : "C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/Huffman_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Huffman_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/Lenovo/Desktop/Huffman/src/Encode.h",
+			"MU",
+			"UVLADIE3JM/moc_Encode.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/Huffman_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/Huffman_autogen/mocs_compilation.cpp",
@@ -289,7 +296,8 @@
 	"SETTINGS_FILE" : "C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/Lenovo/Desktop/Huffman/main.cpp", "MU", null ]
+		[ "C:/Users/Lenovo/Desktop/Huffman/main.cpp", "MU", null ],
+		[ "C:/Users/Lenovo/Desktop/Huffman/src/Encode.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
