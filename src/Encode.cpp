@@ -38,7 +38,7 @@ string Encode::decimalToBinary(int num) {
     return ret;
 }
 
-void Encode::buildTree(char code, string &path) {
+void Encode::buildTree(char data, string &path) {
     Node *curr = root;
     for (int i = 0; i < path.length(); i++){
         if (path[i] == '0'){
@@ -52,7 +52,7 @@ void Encode::buildTree(char code, string &path) {
             curr = curr->right;
         }
     }
-    curr->data = code;
+    curr->data = data;
 }
 
 void Encode::createMinHeap() {
@@ -153,7 +153,7 @@ void Encode::saveEncodedFile() {
 void Encode::saveDecodedFile() {
     inFile.open(inFileName, ios::in | ios::binary);
     outFile.open(outFileName, ios::out);
-    char heapSize;
+    unsigned char heapSize;
     //First character of the encoded text is the size of the huffman tree
     inFile.read(reinterpret_cast<char*>(&heapSize), 1);
     //Reading countZeroes at the end of the file
@@ -163,8 +163,8 @@ void Encode::saveDecodedFile() {
     //Ignoring the data from huffman tree (1: size of the tree, 17: 1 (character) + 16 (huffman code for that character))
     inFile.seekg(1 + 17 * heapSize, ios::beg);
 
-    char temp;
-    vector<char> text;
+    unsigned char temp;
+    vector<unsigned char> text;
     inFile.read(reinterpret_cast<char*>(&temp), 1);
     while (!inFile.eof()){
         text.push_back(temp);
@@ -193,14 +193,14 @@ void Encode::saveDecodedFile() {
 void Encode::getTree(){
     inFile.open(inFileName, ios::in | ios::binary);
     //Reading size of minHeap
-    char heapSize;
+    unsigned char heapSize;
     inFile.read(reinterpret_cast<char*>(&heapSize), 1);
     root = new Node();
     //next heapSize + (1 * 16) characters contain data and code (in decimal)
     for (int i = 0; i < heapSize; i++){
-        char code;
-        char codes[16];
-        inFile.read(&code, 1);
+        char data;
+        unsigned char codes[16];
+        inFile.read(&data, 1);
         inFile.read(reinterpret_cast<char*>(codes), 16);
         // Converting decimal numbers into their binary to get huffman codes
         string codeString = "";
@@ -212,7 +212,7 @@ void Encode::getTree(){
             j++;
         codeString = codeString.substr(j+1);
         //Adding node with "code" data and "codeString" code to the huffman tree
-        buildTree(code, codeString);
+        buildTree(data, codeString);
     }
     inFile.close();
 }
