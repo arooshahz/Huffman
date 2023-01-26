@@ -12,12 +12,12 @@ void Encode::createArray() {
 
 void Encode::traverseTree(Node *v, string str) {
     // Check if this node is a leaf or not
-    if (v -> left == NULL and v -> right == NULL){
-        v -> code = str;
+    if (v->left == NULL and v->right == NULL){
+        v->code = str;
         return;
     }
     traverseTree(v->left, str + '0');
-    traverseTree(v->right, str + '0');
+    traverseTree(v->right, str + '1');
 }
 
 int Encode::binaryToDecimal(string str) {
@@ -35,7 +35,7 @@ string Encode::decimalToBinary(int num) {
     ret.append(8 - temp.length(), '0');
     for (int i = temp.length() - 1; i >= 0; i--)
         ret += temp[i];
-    return temp;
+    return ret;
 }
 
 void Encode::buildTree(char code, string &path) {
@@ -52,7 +52,7 @@ void Encode::buildTree(char code, string &path) {
             curr = curr->right;
         }
     }
-    curr -> data = code;
+    curr->data = code;
 }
 
 void Encode::createMinHeap() {
@@ -92,11 +92,11 @@ void Encode::createTree() {
 }
 
 void Encode::createCodes() {
-    //Strarting the encoding process with traversing the Huffman Tree
+    //Start the encoding process with traversing the Huffman Tree
     traverseTree(root, "");
 }
 
-void Encode::saveEncodeFile() {
+void Encode::saveEncodedFile() {
     inFile.open(inFileName, ios::in);
     outFile.open(outFileName, ios::out | ios::binary);
     string in = "", s = "";
@@ -110,12 +110,11 @@ void Encode::saveEncodeFile() {
         in += curr->data;
 
         //128 binary bits representing code of curr->data
-        for (int i = 0; i < 127 - curr->code.length(); i++)
-            s += '0';
+        s.assign(127 - curr->code.length(), '0');
         s += '1';
         s += curr->code;
 
-        //Converting 128-bit number to 16 * 8-bit bimary codes
+        //Converting 128-bit number to 16 * 8-bit binary codes
         in += (char) binaryToDecimal(s.substr(0, 8));
         for (int i = 0; i < 15; i++){
             //removing first 8 elements of s:
@@ -159,8 +158,8 @@ void Encode::saveDecodedFile() {
     inFile.read(reinterpret_cast<char*>(&heapSize), 1);
     //Reading countZeroes at the end of the file
     inFile.seekg(-1, ios::end);
-    char count0;
-    inFile.read(&count0, 1);
+    char countZeroes;
+    inFile.read(&countZeroes, 1);
     //Ignoring the data from huffman tree (1: size of the tree, 17: 1 (character) + 16 (huffman code for that character))
     inFile.seekg(1 + 17 * heapSize, ios::beg);
 
@@ -174,10 +173,10 @@ void Encode::saveDecodedFile() {
 
     Node *curr = root;
     string path;
-    for (int i = 0; i < text.size(); i++){
+    for (int i = 0; i < text.size() - 1; i++){
         path = decimalToBinary(text[i]);
         if (i == text.size() - 2)
-            path = path.substr(0, 8 - count0);
+            path = path.substr(0, 8 - countZeroes);
         for (int j = 0; j < path.size(); j++){
             curr = (path[j] == '0' ? curr->left : curr->right);
             //Check if we are on a leaf or not
@@ -222,7 +221,7 @@ void Encode::compress() {
     createMinHeap();
     createTree();
     createCodes();
-    saveEncodeFile();
+    saveEncodedFile();
 }
 
 void Encode::decompress() {

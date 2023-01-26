@@ -1,7 +1,6 @@
 #ifndef HUFFMAN_ENCODE_H
 #define HUFFMAN_ENCODE_H
 
-#include <QApplication>
 #include <fstream>
 #include <queue>
 #include <string>
@@ -12,64 +11,62 @@ using namespace std;
 // Huffman Tree Nodes
 struct Node {
     char data;
-    int freq;
+    unsigned int freq;
     string code;
     Node *left, *right;
-    Node(){
+    Node() {
         left = right = NULL;
     }
 };
 
 class Encode {
 private:
-    vector<Node* > arr;
+    vector<Node *> arr;
     fstream inFile, outFile;
     string inFileName, outFileName;
-    Node* root;
+    Node *root;
     class Compare {
     public:
         bool operator()(Node *l, Node *r) {
             return (l->freq > r->freq);
         }
     };
-    priority_queue <Node*, vector<Node*>, Compare> minHeap;
+    priority_queue<Node *, vector<Node *>, Compare> minHeap;
 
-    //vector of tree nodes: {characters ascii code, it's frequency}
+    // vector of tree nodes: {characters ascii code, it's frequency}
     void createArray();
 
-    //traversing the tree to generate huffman code for each character
-    void traverseTree(Node*, string);
+    // traversing the tree to generate huffman code for each character
+    void traverseTree(Node *, string);
 
     int binaryToDecimal(string);
     string decimalToBinary(int);
 
-    //rebuilding the huffman tree for decoding the file
-    void buildTree(char, string&);
+    // rebuilding the huffman tree for decoding the file
+    void buildTree(char, string &);
 
     void createMinHeap();
 
-    //creating the huffman tree
+    // creating the huffman tree
     void createTree();
 
-    //generating huffman codes
+    // generating huffman codes
     void createCodes();
-    void saveEncodeFile();
+    void saveEncodedFile();
     void saveDecodedFile();
 
-    //reading the file to rebuild the huffman tree
+    // reading the file to rebuild the huffman tree
     void getTree();
 
 public:
-    //Constructor
-    Encode(string inFileName, string outFileName){
+    // Constructor
+    Encode(string inFileName, string outFileName) {
         this->inFileName = inFileName;
         this->outFileName = outFileName;
         createArray();
     }
     void compress();
     void decompress();
-
 };
 
-
-#endif //HUFFMAN_ENCODE_H
+#endif // HUFFMAN_ENCODE_H
