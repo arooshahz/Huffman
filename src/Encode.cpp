@@ -2,52 +2,230 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-struct node {
-    char str;
-    int frequency;
-};
 
-class Compare {
-public:
-    bool operator()(node *below, node *above) {
-        if (below->frequency > above->frequency) {
-            return true;
+void Encode::createArray() {
+    for (int i = 0; i < 128; i++){
+        arr.push_back(new Node());
+        arr[i]->data = i, arr[i]->freq = 0;
+    }
+}
+
+void Encode::traverseTree(Node *v, string str) {
+    // Check if this node is a leaf or not
+    if (v -> left == NULL and v -> right == NULL){
+        v -> code = str;
+        return;
+    }
+    traverseTree(v->left, str + '0');
+    traverseTree(v->right, str + '0');
+}
+
+int Encode::binaryToDecimal(string str) {
+    int ret = 0;
+    for (auto c : str)
+        ret = ret * 2 + (c - '0');
+    return ret;
+}
+
+string Encode::decimalToBinary(int num) {
+    string temp = "", ret = "";
+    while (num)
+        temp += (num % 2 + '0'),
+        num /= 2;
+    ret.append(8 - temp.length(), '0');
+    for (int i = temp.length() - 1; i >= 0; i--)
+        ret += temp[i];
+    return temp;
+}
+
+void Encode::buildTree(char code, string &path) {
+    Node *curr = root;
+    for (int i = 0; i < path.length(); i++){
+        if (path[i] == '0'){
+            if (curr->left == NULL)
+                curr->left = new Node();
+            curr = curr->left;
         }
-
-
-        return false;
+        else if (path[i] == '1'){
+            if (curr->right == NULL)
+                curr->right = new Node();
+            curr = curr->right;
+        }
     }
-};
+    curr -> data = code;
+}
 
-void Encode::getFrequencies(char *str) {
+void Encode::createMinHeap() {
+    char c;
+    inFile.open(inFileName, ios::in);
+    inFile.get(c);
+    //counting the frequency of characters that have appeared in the input file
+    while (!inFile.eof()){
+        arr[c]->freq++;
+        inFile.get(c);
+    }
+    inFile.close();
 
-    map<char, int>::iterator itr;
-    map<char, int> m;
+    // pushing nodes into the priority queue
+    for (int i = 0; i < 128; i++)
+        if (arr[i]->freq > 0)
+            minHeap.push(arr[i]);
+}
 
+void Encode::createTree() {
+    Node *left, *right;
+    priority_queue<Node*, vector<Node*>, Compare> temp(minHeap);
+    while (temp.size() != 1){
+        left = temp.top();
+        temp.pop();
 
-    priority_queue<node *, vector<node *>, Compare> pq;
+        right = temp.top();
+        temp.pop();
 
+        root = new Node();
+        root->freq = left->freq + right->freq;
 
-    int i = 0;
-    while (str[i]) {
-        m[str[i]]++;
-        i++;
+        root->left = left;
+        root->right = right;
+        temp.push(root);
+    }
+}
+
+void Encode::createCodes() {
+    //Strarting the encoding process with traversing the Huffman Tree
+    traverseTree(root, "");
+}
+
+void Encode::saveEncodeFile() {
+    inFile.open(inFileName, ios::in);
+    outFile.open(outFileName, ios::out | ios::binary);
+    string in = "", s = "";
+    char c;
+
+    // Saving the data we need from the Huffman tree
+    in += (char) minHeap.size();
+    priority_queue <Node*, vector<Node*>, Compare> temp(minHeap);
+    while (!temp.empty()){
+        Node* curr = temp.top();
+        in += curr->data;
+
+        //128 binary bits representing code of curr->data
+        for (int i = 0; i < 127 - curr->code.length(); i++)
+            s += '0';
+        s += '1';
+        s += curr->code;
+
+        //Converting 128-bit number to 16 * 8-bit bimary codes
+        in += (char) binaryToDecimal(s.substr(0, 8));
+        for (int i = 0; i < 15; i++){
+            //removing first 8 elements of s:
+            s = s.substr(8);
+            //converting first 8 elements of s into a decimal number
+            in += (char) binaryToDecimal(s.substr(0, 8));
+        }
+        temp.pop();
+    }
+    s.clear();
+
+    //Saving codes in the input file
+    inFile.get(c);
+    while (!inFile.eof()){
+        s += arr[c]->code;
+        while (s.length() > 8){
+            in += (char) binaryToDecimal(s.substr(0,8));
+            s = s.substr(8);
+        }
+        inFile.get(c);
     }
 
+    int countZeroes = 8 - s.length();
+    if (s.length() < 8)
+        s.append(countZeroes, '0');
+    in += (char) binaryToDecimal(s);
+    //append number of appended zeroes (we need it when we want to decompress the file)
+    in += (char) countZeroes;
 
-    for (itr = m.begin(); itr != m.end(); itr++) {
+    // writing the "in" string to the output file
+    outFile.write(in.c_str(), in.size());
+    inFile.close();
+    outFile.close();
+}
 
-        qInfo() << itr->first << "->" << itr->second;
+void Encode::saveDecodedFile() {
+    inFile.open(inFileName, ios::in | ios::binary);
+    outFile.open(outFileName, ios::out);
+    char heapSize;
+    //First character of the encoded text is the size of the huffman tree
+    inFile.read(reinterpret_cast<char*>(&heapSize), 1);
+    //Reading countZeroes at the end of the file
+    inFile.seekg(-1, ios::end);
+    char count0;
+    inFile.read(&count0, 1);
+    //Ignoring the data from huffman tree (1: size of the tree, 17: 1 (character) + 16 (huffman code for that character))
+    inFile.seekg(1 + 17 * heapSize, ios::beg);
 
-        pq.push(new node{itr->first, itr->second});
-
-
+    char temp;
+    vector<char> text;
+    inFile.read(reinterpret_cast<char*>(&temp), 1);
+    while (!inFile.eof()){
+        text.push_back(temp);
+        inFile.read(reinterpret_cast<char*>(&temp), 1);
     }
 
-    while (!pq.empty()) {
-        cout << ' ' << pq.top()->str << "->" << pq.top()->frequency;
-        pq.pop();
+    Node *curr = root;
+    string path;
+    for (int i = 0; i < text.size(); i++){
+        path = decimalToBinary(text[i]);
+        if (i == text.size() - 2)
+            path = path.substr(0, 8 - count0);
+        for (int j = 0; j < path.size(); j++){
+            curr = (path[j] == '0' ? curr->left : curr->right);
+            //Check if we are on a leaf or not
+            if (curr->left == NULL and curr->right == NULL){
+                outFile.put(curr->data);
+                curr = root;
+            }
+        }
     }
+    inFile.close();
+    outFile.close();
+}
 
+void Encode::getTree(){
+    inFile.open(inFileName, ios::in | ios::binary);
+    //Reading size of minHeap
+    char heapSize;
+    inFile.read(reinterpret_cast<char*>(&heapSize), 1);
+    root = new Node();
+    //next heapSize + (1 * 16) characters contain data and code (in decimal)
+    for (int i = 0; i < heapSize; i++){
+        char code;
+        char codes[16];
+        inFile.read(&code, 1);
+        inFile.read(reinterpret_cast<char*>(codes), 16);
+        // Converting decimal numbers into their binary to get huffman codes
+        string codeString = "";
+        for (int i = 0; i < 16; i++)
+            codeString += decimalToBinary(codes[i]);
+        //removing leading zeroes
+        int j = 0;
+        while (codeString[j] == '0')
+            j++;
+        codeString = codeString.substr(j+1);
+        //Adding node with "code" data and "codeString" code to the huffman tree
+        buildTree(code, codeString);
+    }
+    inFile.close();
+}
 
+void Encode::compress() {
+    createMinHeap();
+    createTree();
+    createCodes();
+    saveEncodeFile();
+}
+
+void Encode::decompress() {
+    getTree();
+    saveDecodedFile();
 }

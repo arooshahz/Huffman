@@ -1,5 +1,4 @@
-C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/Huffman.dir
-C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/Huffman_autogen_timestamp_deps.dir
-C:/Users/Lenovo/Desktop/Huffman/cmake-build-debug/CMakeFiles/Huffman_autogen.dir
+C:/Users/mehra/CLionProjects/Huffman/cmake-build-debug/CMakeFiles/Huffman.dir
+C:/Users/mehra/CLionProjects/Huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mehra/CLionProjects/Huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mehra/CLionProjects/Huffman/cmake-build-debug/CMakeFiles/Huffman_autogen.dir
