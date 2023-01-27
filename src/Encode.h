@@ -5,6 +5,7 @@
 #include <queue>
 #include <string>
 #include <vector>
+#include "QObject"
 
 using namespace std;
 
@@ -14,24 +15,41 @@ struct Node {
     unsigned int freq;
     string code;
     Node *left, *right;
+
     Node() {
         left = right = NULL;
     }
 };
 
-class Encode {
-private:
-    vector<Node *> arr;
-    fstream inFile, outFile;
-    string inFileName, outFileName;
-    Node *root;
+class Encode : public QObject {
     class Compare {
     public:
         bool operator()(Node *l, Node *r) {
             return (l->freq > r->freq);
         }
     };
+
+private:
+    vector<Node *> arr;
+    fstream inFile, outFile;
+    basic_string<char> outFileName;
+    basic_string<char> inFileName;
+
+    Node *root;
+
     priority_queue<Node *, vector<Node *>, Compare> minHeap;
+
+public:
+
+
+    // Constructor
+    Encode(QString inFileName, QString outFileName);
+
+    ~Encode();
+
+    void compress();
+
+    void decompress();
 
     // vector of tree nodes: {characters ascii code, it's frequency}
     void createArray();
@@ -40,6 +58,7 @@ private:
     void traverseTree(Node *, string);
 
     int binaryToDecimal(string);
+
     string decimalToBinary(int);
 
     // rebuilding the huffman tree for decoding the file
@@ -52,21 +71,15 @@ private:
 
     // generating huffman codes
     void createCodes();
+
     void saveEncodedFile();
+
     void saveDecodedFile();
 
     // reading the file to rebuild the huffman tree
     void getTree();
 
-public:
-    // Constructor
-    Encode(string inFileName, string outFileName) {
-        this->inFileName = inFileName;
-        this->outFileName = outFileName;
-        createArray();
-    }
-    void compress();
-    void decompress();
+
 };
 
 #endif // HUFFMAN_ENCODE_H

@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(Huffman main.cpp src/Encode.h src/Encode.cpp)
+add_executable(Huffman main.cpp src/Encode.h src/Encode.cpp src/windows/Home.cpp src/windows/Home.h src/views/Button.h src/views/Button.cpp resources.qrc src/windows/mainPage.cpp src/windows/mainPage.h src/views/textField.cpp src/views/textField.h)
 target_link_libraries(Huffman
         Qt::Core
         Qt::Gui

@@ -1,16 +1,23 @@
-//
-// Created by Lenovo on 1/27/2023.
-//
-
 #ifndef HUFFMAN_MAINPAGE_H
 #define HUFFMAN_MAINPAGE_H
 
+#include <QGraphicsView>
+#include <QGraphicsItem>
+#include <QGraphicsPixmapItem>
+#include <QObject>
+#include "../views/Button.h"
 
+class mainPage : public QGraphicsView {
+Q_OBJECT
+private:
+    QGraphicsScene *scene;
+    int index;
+    QString inFileName, outFileName;
+public:
+    mainPage(int index);
 
-class mainPage {
-
+    void openFile();
 };
-
 
 
 #endif //HUFFMAN_MAINPAGE_H

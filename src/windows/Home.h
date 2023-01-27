@@ -1,16 +1,28 @@
-//
-// Created by Lenovo on 1/25/2023.
-//
-
 #ifndef HUFFMAN_HOME_H
 #define HUFFMAN_HOME_H
 
+#include <QGraphicsView>
+#include <QGraphicsItem>
+#include <QGraphicsPixmapItem>
+#include <QObject>
+#include <QPushButton>
 
+class Home : public QGraphicsView {
+Q_OBJECT
+private:
+    QGraphicsScene *scene;
 
-class Home {
+public:
+    Home();
+
+    ~Home();
+
+    void startEncoding();
+
+    void startDecoding();
+
 
 };
-
 
 
 #endif //HUFFMAN_HOME_H

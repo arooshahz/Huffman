@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1",
+	"INCLUDE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/include",
+	"INPUTS" : [ "C:/Users/Lenovo/Desktop/Huffman1/resources/images/Start.png" ],
+	"LOCK_FILE" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Lenovo/Desktop/Huffman1/resources.qrc",
+	"VERBOSITY" : 0
+}

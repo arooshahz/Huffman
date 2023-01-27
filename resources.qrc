@@ -1,0 +1,11 @@
+<RCC>
+
+    <qresource prefix="/images">
+
+
+        <file alias="start">resources/images/Start.png</file>
+
+    </qresource>
+
+
+</RCC>
