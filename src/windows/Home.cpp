@@ -3,6 +3,8 @@
 #include "../views/Button.h"
 
 #include "mainPage.h"
+#include "../views/loadingBar.h"
+#include "../views/loadingBar.h"
 
 Home::Home() {
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -48,4 +50,5 @@ void Home::startDecoding() {
     close();
     auto main = new mainPage(1);
     main->show();
+
 }

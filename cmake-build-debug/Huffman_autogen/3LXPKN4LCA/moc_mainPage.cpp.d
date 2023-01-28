@@ -214,6 +214,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.2.4/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qarraydata.h \
@@ -222,6 +223,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.2.4/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -286,6 +288,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtaggedpointer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtcore-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.2.4/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qutf8stringview.h \
@@ -320,6 +323,8 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsItem \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsScene \
+  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsTextItem \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qframe.h \
@@ -331,4 +336,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qwidget.h \
-  C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h
+  C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h \
+  C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h \
+  C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h

@@ -1,17 +1,17 @@
-#ifndef HUFFMAN_LOADING_H
-#define HUFFMAN_LOADING_H
+#ifndef HUFFMAN_LOADINGBAR_H
+#define HUFFMAN_LOADINGBAR_H
 
 #include<QObject>
 #include <QGraphicsPixmapItem>
 #include <QTimer>
 #include <QGraphicsScene>
 
-class loading : public QObject, public QGraphicsPixmapItem {
+class loadingBar : public QObject, public QGraphicsPixmapItem {
 Q_OBJECT
 public:
-    loading(int width, int height, QGraphicsPathItem *parent = nullptr);
+    loadingBar(int width, int height, QGraphicsPathItem *parent = nullptr);
 
-    ~loading();
+    ~loadingBar();
 
 public slots:
 
@@ -31,4 +31,4 @@ private:
 };
 
 
-#endif //HUFFMAN_LOADING_H
+#endif //HUFFMAN_LOADINGBAR_H

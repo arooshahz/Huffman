@@ -309,16 +309,23 @@ CMakeFiles/Huffman.dir/Huffman_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qpixelformat.h \
  C:/Qt/6.2.4/mingw_64/include/QtCore/QObject \
  C:/Qt/6.2.4/mingw_64/include/QtCore/qobject.h \
+ C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\Huffman_autogen\Z3L7HTGYLD/moc_loadingBar.cpp \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsScene \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ C:/Qt/6.2.4/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.2.4/mingw_64/include/QtGui/qfont.h \
+ C:/Qt/6.2.4/mingw_64/include/QtGui/qpen.h \
  C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\Huffman_autogen\3LXPKN4LCA/moc_Home.cpp \
  C:/Users/Lenovo/Desktop/Huffman1/src/windows/Home.h \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsview.h \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.2.4/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.2.4/mingw_64/include/QtGui/qbrush.h \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qfontinfo.h \
- C:/Qt/6.2.4/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qfontmetrics.h \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -337,4 +344,7 @@ CMakeFiles/Huffman.dir/Huffman_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qicon.h \
  C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\Huffman_autogen\3LXPKN4LCA/moc_mainPage.cpp \
  C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.h \
- C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsTextItem \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h

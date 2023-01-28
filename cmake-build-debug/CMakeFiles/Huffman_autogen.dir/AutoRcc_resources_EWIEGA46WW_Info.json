@@ -5,7 +5,14 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1",
 	"CMAKE_SOURCE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1",
 	"INCLUDE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/include",
-	"INPUTS" : [ "C:/Users/Lenovo/Desktop/Huffman1/resources/images/Start.png" ],
+	"INPUTS" : 
+	[
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading3.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading4.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/Start.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading2.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading1.png"
+	],
 	"LOCK_FILE" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],

@@ -153,6 +153,18 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h">
 			<Option target="Huffman"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.cpp">
+			<Option target="Huffman"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h">
+			<Option target="Huffman"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.cpp">
+			<Option target="Huffman"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h">
+			<Option target="Huffman"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.cpp">
 			<Option target="Huffman"/>
 		</Unit>

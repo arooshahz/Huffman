@@ -329,6 +329,14 @@ CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj: \
  C:/Qt/6.2.4/mingw_64/include/QtCore/QObject \
  C:/Qt/6.2.4/mingw_64/include/QtCore/qobject.h \
  C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsTextItem \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.2.4/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsScene \
+ C:/Qt/6.2.4/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QFileDialog \
  C:/Qt/6.2.4/mingw_64/include/QtWidgets/qfiledialog.h \
  C:/Qt/6.2.4/mingw_64/include/QtCore/qdir.h \
@@ -381,5 +389,5 @@ CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h \
- C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.h \
- C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsTextItem
+ C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.h \
+ C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.h

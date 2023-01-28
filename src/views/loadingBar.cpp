@@ -1,6 +1,6 @@
-#include "loading.h"
+#include "loadingBar.h"
 
-loading::loading(int width, int height, QGraphicsPathItem *parent) : width(width), height(height),
+loadingBar::loadingBar(int width, int height, QGraphicsPathItem *parent) : width(width), height(height),
                                                                            QGraphicsPixmapItem(parent) {
 
 
@@ -8,7 +8,6 @@ loading::loading(int width, int height, QGraphicsPathItem *parent) : width(width
     pixmap1= pixmap1.scaled(width, height, Qt::IgnoreAspectRatio);
     setPixmap(pixmap1);
 
-//    qInfo("hi");
     auto pixmap = new QPixmap(":/images/loading1");
     *pixmap = pixmap->scaled(150, 150);
     frames.append(pixmap);
@@ -26,35 +25,33 @@ loading::loading(int width, int height, QGraphicsPathItem *parent) : width(width
     *pixmap = pixmap->scaled(150, 150);
     frames.append(pixmap);
 
-    qInfo("hi");
     setPixmap(*frames.at(0));
     animateTimer = new QTimer();
     animateTimer->setInterval(100);
-    connect(animateTimer, &QTimer::timeout, this, &loading::animate);
+    connect(animateTimer, &QTimer::timeout, this, &loadingBar::animate);
     animateTimer->start();
 
-    qInfo("hi");
 
     removeTimer = new QTimer();
     removeTimer->setInterval(3000);
-    connect(removeTimer, &QTimer::timeout, this, &loading::end);
+    connect(removeTimer, &QTimer::timeout, this, &loadingBar::end);
     removeTimer->start();
 
 
 }
 
-loading::~loading() {
+loadingBar::~loadingBar() {
     qDeleteAll(frames);
     delete animateTimer;
     delete removeTimer;
 
 }
 
-void loading::animate() {
+void loadingBar::animate() {
     setPixmap(*frames.at(frame));
     frame = (frame + 1) % 4;
 }
 
-void loading::end() {
+void loadingBar::end() {
     delete this;
 }

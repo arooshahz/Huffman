@@ -6,17 +6,25 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 #include "../views/Button.h"
-
+#include "../views/Label.h"
+#include "../views/loadingBar.h"
 class mainPage : public QGraphicsView {
 Q_OBJECT
+
+
 private:
-    QGraphicsScene *scene;
     int index;
     QString inFileName, outFileName;
+    Label *label;
+
 public:
     mainPage(int index);
 
+    QGraphicsScene *scene;
+
     void openFile();
+
+    void start();
 };
 
 

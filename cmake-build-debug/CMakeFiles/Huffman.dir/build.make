@@ -70,7 +70,11 @@ include CMakeFiles/Huffman.dir/flags.make
 
 Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources.qrc
 Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources/images/loading3.png
+Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources/images/loading4.png
 Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources/images/Start.png
+Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources/images/loading2.png
+Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: ../resources/images/loading1.png
 Huffman_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.2.4/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
 	"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
@@ -180,11 +184,41 @@ CMakeFiles/Huffman.dir/src/views/textField.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huffman.dir/src/views/textField.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\Huffman1\src\views\textField.cpp -o CMakeFiles\Huffman.dir\src\views\textField.cpp.s
 
+CMakeFiles/Huffman.dir/src/views/Label.cpp.obj: CMakeFiles/Huffman.dir/flags.make
+CMakeFiles/Huffman.dir/src/views/Label.cpp.obj: CMakeFiles/Huffman.dir/includes_CXX.rsp
+CMakeFiles/Huffman.dir/src/views/Label.cpp.obj: ../src/views/Label.cpp
+CMakeFiles/Huffman.dir/src/views/Label.cpp.obj: CMakeFiles/Huffman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Huffman.dir/src/views/Label.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Huffman.dir/src/views/Label.cpp.obj -MF CMakeFiles\Huffman.dir\src\views\Label.cpp.obj.d -o CMakeFiles\Huffman.dir\src\views\Label.cpp.obj -c C:\Users\Lenovo\Desktop\Huffman1\src\views\Label.cpp
+
+CMakeFiles/Huffman.dir/src/views/Label.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huffman.dir/src/views/Label.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\Huffman1\src\views\Label.cpp > CMakeFiles\Huffman.dir\src\views\Label.cpp.i
+
+CMakeFiles/Huffman.dir/src/views/Label.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huffman.dir/src/views/Label.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\Huffman1\src\views\Label.cpp -o CMakeFiles\Huffman.dir\src\views\Label.cpp.s
+
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj: CMakeFiles/Huffman.dir/flags.make
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj: CMakeFiles/Huffman.dir/includes_CXX.rsp
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj: ../src/views/loadingBar.cpp
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj: CMakeFiles/Huffman.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj -MF CMakeFiles\Huffman.dir\src\views\loadingBar.cpp.obj.d -o CMakeFiles\Huffman.dir\src\views\loadingBar.cpp.obj -c C:\Users\Lenovo\Desktop\Huffman1\src\views\loadingBar.cpp
+
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\Desktop\Huffman1\src\views\loadingBar.cpp > CMakeFiles\Huffman.dir\src\views\loadingBar.cpp.i
+
+CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\Desktop\Huffman1\src\views\loadingBar.cpp -o CMakeFiles\Huffman.dir\src\views\loadingBar.cpp.s
+
 CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/Huffman.dir/flags.make
 CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/Huffman.dir/includes_CXX.rsp
 CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj: Huffman_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/Huffman.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\Huffman.dir\Huffman_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\Huffman.dir\Huffman_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\Huffman_autogen\EWIEGA46WW\qrc_resources.cpp
 
 CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -204,6 +238,8 @@ Huffman_OBJECTS = \
 "CMakeFiles/Huffman.dir/src/views/Button.cpp.obj" \
 "CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj" \
 "CMakeFiles/Huffman.dir/src/views/textField.cpp.obj" \
+"CMakeFiles/Huffman.dir/src/views/Label.cpp.obj" \
+"CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj" \
 "CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 
 # External object files for target Huffman
@@ -216,6 +252,8 @@ Huffman.exe: CMakeFiles/Huffman.dir/src/windows/Home.cpp.obj
 Huffman.exe: CMakeFiles/Huffman.dir/src/views/Button.cpp.obj
 Huffman.exe: CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj
 Huffman.exe: CMakeFiles/Huffman.dir/src/views/textField.cpp.obj
+Huffman.exe: CMakeFiles/Huffman.dir/src/views/Label.cpp.obj
+Huffman.exe: CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj
 Huffman.exe: CMakeFiles/Huffman.dir/Huffman_autogen/EWIEGA46WW/qrc_resources.cpp.obj
 Huffman.exe: CMakeFiles/Huffman.dir/build.make
 Huffman.exe: C:/Qt/6.2.4/mingw_64/lib/libQt6Widgets.a
@@ -224,7 +262,7 @@ Huffman.exe: C:/Qt/6.2.4/mingw_64/lib/libQt6Core.a
 Huffman.exe: CMakeFiles/Huffman.dir/linklibs.rsp
 Huffman.exe: CMakeFiles/Huffman.dir/objects1.rsp
 Huffman.exe: CMakeFiles/Huffman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Huffman.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lenovo\Desktop\Huffman1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Huffman.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Huffman.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/plugins/platforms/
 	"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -E copy C:/Qt/6.2.4/mingw_64/plugins/platforms/qwindows.dll C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/plugins/platforms/

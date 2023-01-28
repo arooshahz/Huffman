@@ -1,8 +1,27 @@
 #include "Encode.h"
+#include "views/loadingBar.h"
 #include<bits/stdc++.h>
 
 using namespace std;
+Encode::Encode(QString inFileName, QString outFileName,QGraphicsScene* scene) {
+//
+//        auto loadingtest = new loadingBar(143,143);
+//    scene->addItem(loadingtest);
+//    loadingtest->setPos((scene->width() / 2) - 300,scene-> height() / 2+100);
 
+    this->inFileName = inFileName.toStdString();
+    this->outFileName = outFileName.toStdString();
+
+
+
+    createArray();
+
+}
+Encode::~Encode() {
+    delete root;
+    qDeleteAll(arr);
+
+}
 void Encode::createArray() {
     for (int i = 0; i < 128; i++){
         arr.push_back(new Node());

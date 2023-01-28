@@ -4,7 +4,10 @@
 
 
         <file alias="start">resources/images/Start.png</file>
-
+        <file alias="loading1">resources/images/loading1.png</file>
+        <file alias="loading2">resources/images/loading2.png</file>
+        <file alias="loading3">resources/images/loading3.png</file>
+        <file alias="loading4">resources/images/loading4.png</file>
     </qresource>
 
 

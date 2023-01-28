@@ -261,6 +261,54 @@ src/views/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Button.cpp.s
 .PHONY : src/views/Button.cpp.s
 
+src/views/Label.obj: src/views/Label.cpp.obj
+.PHONY : src/views/Label.obj
+
+# target to build an object file
+src/views/Label.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.obj
+.PHONY : src/views/Label.cpp.obj
+
+src/views/Label.i: src/views/Label.cpp.i
+.PHONY : src/views/Label.i
+
+# target to preprocess a source file
+src/views/Label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.i
+.PHONY : src/views/Label.cpp.i
+
+src/views/Label.s: src/views/Label.cpp.s
+.PHONY : src/views/Label.s
+
+# target to generate assembly for a file
+src/views/Label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.s
+.PHONY : src/views/Label.cpp.s
+
+src/views/loadingBar.obj: src/views/loadingBar.cpp.obj
+.PHONY : src/views/loadingBar.obj
+
+# target to build an object file
+src/views/loadingBar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.obj
+.PHONY : src/views/loadingBar.cpp.obj
+
+src/views/loadingBar.i: src/views/loadingBar.cpp.i
+.PHONY : src/views/loadingBar.i
+
+# target to preprocess a source file
+src/views/loadingBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.i
+.PHONY : src/views/loadingBar.cpp.i
+
+src/views/loadingBar.s: src/views/loadingBar.cpp.s
+.PHONY : src/views/loadingBar.s
+
+# target to generate assembly for a file
+src/views/loadingBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.s
+.PHONY : src/views/loadingBar.cpp.s
+
 src/views/textField.obj: src/views/textField.cpp.obj
 .PHONY : src/views/textField.obj
 
@@ -358,6 +406,12 @@ help:
 	@echo ... src/views/Button.obj
 	@echo ... src/views/Button.i
 	@echo ... src/views/Button.s
+	@echo ... src/views/Label.obj
+	@echo ... src/views/Label.i
+	@echo ... src/views/Label.s
+	@echo ... src/views/loadingBar.obj
+	@echo ... src/views/loadingBar.i
+	@echo ... src/views/loadingBar.s
 	@echo ... src/views/textField.obj
 	@echo ... src/views/textField.i
 	@echo ... src/views/textField.s
