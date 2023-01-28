@@ -357,6 +357,30 @@ src/windows/Home.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/windows/Home.cpp.s
 .PHONY : src/windows/Home.cpp.s
 
+src/windows/Result.obj: src/windows/Result.cpp.obj
+.PHONY : src/windows/Result.obj
+
+# target to build an object file
+src/windows/Result.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/windows/Result.cpp.obj
+.PHONY : src/windows/Result.cpp.obj
+
+src/windows/Result.i: src/windows/Result.cpp.i
+.PHONY : src/windows/Result.i
+
+# target to preprocess a source file
+src/windows/Result.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/windows/Result.cpp.i
+.PHONY : src/windows/Result.cpp.i
+
+src/windows/Result.s: src/windows/Result.cpp.s
+.PHONY : src/windows/Result.s
+
+# target to generate assembly for a file
+src/windows/Result.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/windows/Result.cpp.s
+.PHONY : src/windows/Result.cpp.s
+
 src/windows/mainPage.obj: src/windows/mainPage.cpp.obj
 .PHONY : src/windows/mainPage.obj
 
@@ -418,6 +442,9 @@ help:
 	@echo ... src/windows/Home.obj
 	@echo ... src/windows/Home.i
 	@echo ... src/windows/Home.s
+	@echo ... src/windows/Result.obj
+	@echo ... src/windows/Result.i
+	@echo ... src/windows/Result.s
 	@echo ... src/windows/mainPage.obj
 	@echo ... src/windows/mainPage.i
 	@echo ... src/windows/mainPage.s

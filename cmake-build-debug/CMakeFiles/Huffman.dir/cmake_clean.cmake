@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Huffman.dir/src/views/textField.cpp.obj.d"
   "CMakeFiles/Huffman.dir/src/windows/Home.cpp.obj"
   "CMakeFiles/Huffman.dir/src/windows/Home.cpp.obj.d"
+  "CMakeFiles/Huffman.dir/src/windows/Result.cpp.obj"
+  "CMakeFiles/Huffman.dir/src/windows/Result.cpp.obj.d"
   "CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj"
   "CMakeFiles/Huffman.dir/src/windows/mainPage.cpp.obj.d"
   "Huffman.exe"

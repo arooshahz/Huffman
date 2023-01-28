@@ -26,7 +26,7 @@ private:
     QList<QPixmap *> frames{};
     QTimer *animateTimer;
     QTimer *removeTimer;
-    QGraphicsScene *scene;
+
 
 };
 

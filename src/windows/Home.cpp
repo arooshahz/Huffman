@@ -9,21 +9,25 @@
 Home::Home() {
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    showFullScreen();
+//    showFullScreen();
     setFrameShape(NoFrame);
 
-    auto scene = new QGraphicsScene();
-    scene->setSceneRect(0, 0, 500, 500);
+    scene = new QGraphicsScene();
+    scene->setSceneRect(0, 0, 800, 800);
+    auto pixmap = new QPixmap(":/images/wallpaper");
+    *pixmap = pixmap->scaled(800, 700, Qt::IgnoreAspectRatio);
+    setBackgroundBrush(QPixmap(*pixmap));
 
-    auto encodeButton = new Button(143, 143);
+
+    auto encodeButton = new Button(250, 250,"1");
     scene->addItem(encodeButton);
-    encodeButton->setPos(width() / 10 + encodeButton->boundingRect().width(), height() / 15);
+    encodeButton->setPos(450, 200);
     connect(encodeButton, &Button::onPress, this, &Home::startEncoding);
 
 
-    auto decodeButton = new Button(143, 143);
+    auto decodeButton = new Button(250, 250,"2");
     scene->addItem(decodeButton);
-    decodeButton->setPos(-width() / 10, height() / 15);
+    decodeButton->setPos(340-encodeButton->boundingRect().width(), 200);
     connect(decodeButton, &Button::onPress, this, &Home::startDecoding);
 
 

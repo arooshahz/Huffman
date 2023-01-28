@@ -5,13 +5,13 @@
 #include <QPainter>
 
 
-Button::Button(int width, int height, QGraphicsPathItem *parent) : width(width), height(height),
+Button::Button(int width, int height,QString index, QGraphicsPathItem *parent ) :index(index), width(width), height(height),
                                                                    QGraphicsPixmapItem(parent) {
 
-    QPixmap pixmap(":/images/start");
-    pixmap = pixmap.scaled(width, height, Qt::IgnoreAspectRatio);
-    setPixmap(pixmap);
+    QPixmap pixmap1(":/images/"+index);
 
+    pixmap1 = pixmap1.scaled(width, height, Qt::KeepAspectRatioByExpanding);
+    setPixmap(pixmap1);
 
 }
 

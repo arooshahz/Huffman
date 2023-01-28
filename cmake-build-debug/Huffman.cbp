@@ -177,6 +177,12 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/windows/Home.h">
 			<Option target="Huffman"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/windows/Result.cpp">
+			<Option target="Huffman"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/windows/Result.h">
+			<Option target="Huffman"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.cpp">
 			<Option target="Huffman"/>
 		</Unit>

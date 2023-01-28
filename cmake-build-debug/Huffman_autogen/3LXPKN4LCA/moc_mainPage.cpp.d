@@ -23,20 +23,24 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/c++0x_warning.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
@@ -74,6 +78,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
@@ -84,6 +89,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_queue.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
@@ -101,18 +107,21 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator_args.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/compare \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/concepts \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
@@ -122,10 +131,12 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
@@ -140,6 +151,7 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/queue \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
@@ -165,8 +177,10 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/variant \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -214,7 +228,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.1.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/QObject \
-  C:/Qt/6.2.4/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qarraydata.h \
@@ -223,7 +236,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbasicatomic.h \
-  C:/Qt/6.2.4/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -288,7 +300,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtaggedpointer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtcore-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtextstream.h \
-  C:/Qt/6.2.4/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.2.4/mingw_64/include/QtCore/qutf8stringview.h \
@@ -323,7 +334,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsItem \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
-  C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsScene \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsTextItem \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/QGraphicsView \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -336,6 +346,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qwidget.h \
+  C:/Users/Lenovo/Desktop/Huffman1/src/Encode.h \
   C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h \
-  C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h \
-  C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h
+  C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h

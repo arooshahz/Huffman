@@ -1,9 +1,10 @@
 #include "Encode.h"
 #include "views/loadingBar.h"
 #include<bits/stdc++.h>
+#include <QFileDialog>
 
 using namespace std;
-Encode::Encode(QString inFileName, QString outFileName,QGraphicsScene* scene) {
+Encode::Encode(QString inFileName, QString outFileName) {
 
 
     this->inFileName = inFileName.toStdString();
@@ -14,6 +15,19 @@ Encode::Encode(QString inFileName, QString outFileName,QGraphicsScene* scene) {
     createArray();
 
 }
+
+void Encode::compress() {
+    createMinHeap();
+    createTree();
+    createCodes();
+    saveEncodedFile();
+}
+
+void Encode::decompress() {
+    getTree();
+    saveDecodedFile();
+}
+
 Encode::~Encode() {
     delete root;
     qDeleteAll(arr);
@@ -167,6 +181,7 @@ void Encode::saveEncodedFile() {
 }
 
 void Encode::saveDecodedFile() {
+
     inFile.open(inFileName, ios::in | ios::binary);
     outFile.open(outFileName, ios::out);
     unsigned char heapSize;
@@ -231,16 +246,4 @@ void Encode::getTree(){
         buildTree(data, codeString);
     }
     inFile.close();
-}
-
-void Encode::compress() {
-    createMinHeap();
-    createTree();
-    createCodes();
-    saveEncodedFile();
-}
-
-void Encode::decompress() {
-    getTree();
-    saveDecodedFile();
 }

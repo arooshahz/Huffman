@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 #include "QObject"
-#include "windows/mainPage.h"
+//#include "windows/mainPage.h"
 
 using namespace std;
 
@@ -44,7 +44,7 @@ public:
 
 
     // Constructor
-    Encode(QString inFileName, QString outFileName,QGraphicsScene* scene);
+    Encode(QString inFileName, QString outFileName);
 
 
     ~Encode();

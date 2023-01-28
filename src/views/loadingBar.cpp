@@ -1,29 +1,48 @@
 #include "loadingBar.h"
-
+using namespace std;
 loadingBar::loadingBar(int width, int height, QGraphicsPathItem *parent) : width(width), height(height),
                                                                            QGraphicsPixmapItem(parent) {
 
 
-    QPixmap pixmap1(":/images/loading2");
+    QPixmap pixmap1(":/images/l1");
     pixmap1= pixmap1.scaled(width, height, Qt::IgnoreAspectRatio);
     setPixmap(pixmap1);
 
-    auto pixmap = new QPixmap(":/images/loading1");
-    *pixmap = pixmap->scaled(150, 150);
+
+
+    auto pixmap = new QPixmap(":/images/l1");
+    *pixmap = pixmap->scaled(width, height);
     frames.append(pixmap);
     setPixmap(*pixmap);
 
-    pixmap = new QPixmap(":/images/loading2");
-    *pixmap = pixmap->scaled(150, 150);
+    pixmap = new QPixmap(":/images/l2");
+    *pixmap = pixmap->scaled(width, height);
     frames.append(pixmap);
 
-    pixmap = new QPixmap(":/images/loading3");
-    *pixmap = pixmap->scaled(150, 150);
+    pixmap = new QPixmap(":/images/l3");
+    *pixmap = pixmap->scaled(width, height);
     frames.append(pixmap);
 
-    pixmap = new QPixmap(":/images/loading4");
-    *pixmap = pixmap->scaled(150, 150);
+    pixmap = new QPixmap(":/images/l4");
+    *pixmap = pixmap->scaled(width, height);
     frames.append(pixmap);
+
+    pixmap = new QPixmap(":/images/l5");
+    *pixmap = pixmap->scaled(width, height);
+    frames.append(pixmap);
+
+    pixmap = new QPixmap(":/images/l6");
+    *pixmap = pixmap->scaled(width, height);
+    frames.append(pixmap);
+
+    pixmap = new QPixmap(":/images/l7");
+    *pixmap = pixmap->scaled(width, height);
+    frames.append(pixmap);
+
+    pixmap = new QPixmap(":/images/l8");
+    *pixmap = pixmap->scaled(width, height);
+    frames.append(pixmap);
+
 
     setPixmap(*frames.at(0));
     animateTimer = new QTimer();
@@ -49,7 +68,7 @@ loadingBar::~loadingBar() {
 
 void loadingBar::animate() {
     setPixmap(*frames.at(frame));
-    frame = (frame + 1) % 4;
+    frame = (frame + 1) % 8;
 }
 
 void loadingBar::end() {

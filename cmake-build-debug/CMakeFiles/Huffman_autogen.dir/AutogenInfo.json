@@ -267,6 +267,12 @@
 			null
 		],
 		[
+			"C:/Users/Lenovo/Desktop/Huffman1/src/windows/Result.h",
+			"MU",
+			"3LXPKN4LCA/moc_Result.cpp",
+			null
+		],
+		[
 			"C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.h",
 			"MU",
 			"3LXPKN4LCA/moc_mainPage.cpp",
@@ -351,6 +357,7 @@
 			null
 		],
 		[ "C:/Users/Lenovo/Desktop/Huffman1/src/windows/Home.cpp", "MU", null ],
+		[ "C:/Users/Lenovo/Desktop/Huffman1/src/windows/Result.cpp", "MU", null ],
 		[
 			"C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.cpp",
 			"MU",

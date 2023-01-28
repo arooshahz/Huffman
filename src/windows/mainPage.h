@@ -7,7 +7,8 @@
 #include <QObject>
 #include "../views/Button.h"
 #include "../views/Label.h"
-#include "../views/loadingBar.h"
+
+#include "../Encode.h"
 
 class mainPage : public QGraphicsView {
 Q_OBJECT

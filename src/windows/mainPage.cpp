@@ -1,63 +1,43 @@
 #include "mainPage.h"
 #include "QFileDialog"
-#include "../Encode.h"
-
 #include "../views/textField.h"
-
+#include "Result.h"
+#include <filesystem>
 
 
 mainPage::mainPage(int index) : index(index) {
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    showFullScreen();
     setFrameShape(NoFrame);
 
 
-
     scene = new QGraphicsScene();
-    scene->setSceneRect(0, 0, width(), height());
-    scene->setBackgroundBrush(QColor("white"));
-
+    scene->setSceneRect(0, 0, 800, 800);
+    auto pixmap = new QPixmap(":/images/mainPage");
+    *pixmap = pixmap->scaled(800, 700, Qt::IgnoreAspectRatio);
+    setBackgroundBrush(QPixmap(*pixmap));
     setScene(scene);
 
-    label = new Label();
-    scene->addItem(label);
-    label->setPlainText("inFileName:");
-    label->setPos((width() / 2) - 300, height() / 2+200);
 
-    auto buttonInFile = new Button(100, 100);
+    auto buttonInFile = new Button(480, 45,"b");
     scene->addItem(buttonInFile);
-    buttonInFile->setPos((width() / 2) - 300, height() / 2);
+    buttonInFile->setPos( 130, 200);
     connect(buttonInFile, &Button::onPress, this, &mainPage::openFile);
 
-    label = new Label();
-    scene->addItem(label);
-    label->setPlainText("outFileName:");
-    label->setPos((width() / 2), height() / 2+200);
 
-    auto buttonOutfile = new Button(100, 100);
+    auto buttonOutfile = new Button(480, 45,"b");
     scene->addItem(buttonOutfile);
-    buttonOutfile->setPos((width() / 2) , height() / 2);
+    buttonOutfile->setPos(130, 350);
     connect(buttonOutfile, &Button::onPress, this, &mainPage::saveFile);
 
-    label = new Label();
-    scene->addItem(label);
-    label->setPlainText("start:");
-    label->setPos((width() / 2) - 600, height() / 2 + 200);
 
-     buttonStart = new Button(100, 100);
+
+     buttonStart = new Button(400,100,"s");
     scene->addItem(buttonStart);
-    buttonStart->setPos((width() / 2) - 600, height() / 2);
+    buttonStart->setPos(200, 500);
     connect(buttonStart, &Button::onPress, this, &mainPage::start );
 
 
-//
-//    auto textfield = new textField(width() / 4.2, height() / 12.5);
-//    textfield->setPlainText(outFileName);
-//    scene->addItem(textfield);
-//    textfield->setPos((width() / 2) + button->boundingRect().width(), height() / 2);
-
-//    outFileName=QFileDialog::getSaveFileName(this,tr("save file"),"c://","AllFiles(*.*);;compressFiles(*.cmp);;TextFiles(*.txt)");
 
 
 
@@ -77,17 +57,27 @@ void mainPage::openFile() {
         inFileName = QFileDialog::getOpenFileName(this, tr("open file to encode"), "c://", "TextFiles(*.txt)");
         label->setPlainText(inFileName);
 
+        outFileName="C://Users//Lenovo//Desktop//"+inFileName+".cmp";
     } else {
         inFileName = QFileDialog::getOpenFileName(this, tr("open file to decode"), "c://", "compressFiles(*.cmp)");
-
+        outFileName="C://Users//Lenovo//Desktop//"+inFileName+".txt";
     }
 
 
 }
 
 void mainPage::saveFile() {
-    outFileName = QFileDialog::getSaveFileName(this, tr("save file"), "c://",
-                                               "AllFiles(*.*);;compressFiles(*.cmp);;TextFiles(*.txt)");
+
+
+
+    if (index % 2 == 0) {
+        outFileName = QFileDialog::getSaveFileName(this, tr("save file"), "c://", "compressFiles(*.cmp)");
+
+
+    } else {
+        outFileName = QFileDialog::getSaveFileName(this, tr("save file"), "c://", "TextFiles(*.txt)");
+
+    }
 
 
 }
@@ -95,20 +85,24 @@ void mainPage::saveFile() {
 void mainPage::start() {
 
 
-        auto loading=new loadingBar(143,143);
-    scene->addItem(loading);
-    loading->setPos((width() / 2) - 600, height() / 2);
+    Encode convert(inFileName,outFileName);
 
-    Encode test(inFileName, outFileName, this->scene);
 
 
     if (index % 2 == 0) {
-        test.compress();
+        convert.compress();
 
 
     } else {
-        test.decompress();
+        convert.decompress();
     }
-    qInfo("done!");
-    delete buttonStart;
+
+    close();
+    auto result = new Result();
+    result->show();
+
+
+
+
+
 }

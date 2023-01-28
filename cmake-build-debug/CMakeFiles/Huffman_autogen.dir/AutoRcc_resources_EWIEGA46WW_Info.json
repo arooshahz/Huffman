@@ -7,11 +7,22 @@
 	"INCLUDE_DIR" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading3.png",
-		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading4.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l4.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l5.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l7.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/2.PNG",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l8.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l6.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/wallpaper.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/homeIcon.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l2.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l3.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/l1.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/mainPage.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/1.png",
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/done.png",
 		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/Start.png",
-		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading2.png",
-		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/loading1.png"
+		"C:/Users/Lenovo/Desktop/Huffman1/resources/images/browse.png"
 	],
 	"LOCK_FILE" : "C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/CMakeFiles/Huffman_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
