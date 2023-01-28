@@ -4,10 +4,7 @@
 
 using namespace std;
 Encode::Encode(QString inFileName, QString outFileName,QGraphicsScene* scene) {
-//
-//        auto loadingtest = new loadingBar(143,143);
-//    scene->addItem(loadingtest);
-//    loadingtest->setPos((scene->width() / 2) - 300,scene-> height() / 2+100);
+
 
     this->inFileName = inFileName.toStdString();
     this->outFileName = outFileName.toStdString();

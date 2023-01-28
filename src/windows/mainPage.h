@@ -8,6 +8,7 @@
 #include "../views/Button.h"
 #include "../views/Label.h"
 #include "../views/loadingBar.h"
+
 class mainPage : public QGraphicsView {
 Q_OBJECT
 
@@ -16,6 +17,7 @@ private:
     int index;
     QString inFileName, outFileName;
     Label *label;
+    Button* buttonStart;
 
 public:
     mainPage(int index);
@@ -25,6 +27,8 @@ public:
     void openFile();
 
     void start();
+
+    void saveFile();
 };
 
 

@@ -22,7 +22,7 @@ struct Node {
     }
 };
 
-class Encode : public QObject {
+class Encode : public QObject{
     class Compare {
     public:
         bool operator()(Node *l, Node *r) {
