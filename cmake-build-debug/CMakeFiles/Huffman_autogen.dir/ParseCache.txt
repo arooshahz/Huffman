@@ -1348,9 +1348,9 @@ C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.2.4/mingw_64/include/QtWidgets/qwidget.h
- mdp:C:/Users/Lenovo/Desktop/Huffman1/src/Encode.h
+ mdp:C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.h
  mdp:C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h
- mdp:C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h
+ mdp:C:/Users/Lenovo/Desktop/Huffman1/src/views/label.h
 C:/Users/Lenovo/Desktop/Huffman1/src/windows/mainPage.cpp
 C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.h
 C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h
@@ -2350,3 +2350,7 @@ C:/Users/Lenovo/Desktop/Huffman1/src/windows/Result.h
  mdp:C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h
  mdp:C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h
  mdp:C:/Users/Lenovo/Desktop/Huffman1/src/windows/Home.h
+C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.h
+C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.cpp
+C:/Users/Lenovo/Desktop/Huffman1/src/views/label.h
+C:/Users/Lenovo/Desktop/Huffman1/src/views/label.cpp

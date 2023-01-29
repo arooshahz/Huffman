@@ -6,24 +6,24 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 #include "../views/Button.h"
+#include "../Huffman.h"
 #include "../views/Label.h"
-
-#include "../Encode.h"
 
 class mainPage : public QGraphicsView {
 Q_OBJECT
-
-
 private:
     int index;
-    QString inFileName, outFileName;
     Label *label;
-    Button* buttonStart;
-
+    QString inFileName, outFileName;
+    Button *buttonInFile;
+    Button *buttonOutFile;
+    Button *buttonStart;
+    QGraphicsScene *scene;
 public:
     mainPage(int index);
 
-    QGraphicsScene *scene;
+    ~mainPage();
+
 
     void openFile();
 

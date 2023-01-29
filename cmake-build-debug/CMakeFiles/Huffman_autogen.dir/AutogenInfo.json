@@ -231,9 +231,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Lenovo/Desktop/Huffman1/src/Encode.h",
+			"C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.h",
 			"MU",
-			"UVLADIE3JM/moc_Encode.cpp",
+			"UVLADIE3JM/moc_Huffman.cpp",
 			null
 		],
 		[
@@ -243,21 +243,15 @@
 			null
 		],
 		[
-			"C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h",
+			"C:/Users/Lenovo/Desktop/Huffman1/src/views/label.h",
 			"MU",
-			"Z3L7HTGYLD/moc_Label.cpp",
+			"Z3L7HTGYLD/moc_label.cpp",
 			null
 		],
 		[
 			"C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h",
 			"MU",
 			"Z3L7HTGYLD/moc_loadingBar.cpp",
-			null
-		],
-		[
-			"C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.h",
-			"MU",
-			"Z3L7HTGYLD/moc_textField.cpp",
 			null
 		],
 		[
@@ -343,16 +337,11 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/Lenovo/Desktop/Huffman1/main.cpp", "MU", null ],
-		[ "C:/Users/Lenovo/Desktop/Huffman1/src/Encode.cpp", "MU", null ],
+		[ "C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.cpp", "MU", null ],
 		[ "C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.cpp", "MU", null ],
-		[ "C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.cpp", "MU", null ],
+		[ "C:/Users/Lenovo/Desktop/Huffman1/src/views/label.cpp", "MU", null ],
 		[
 			"C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.cpp",
 			"MU",
 			null
 		],

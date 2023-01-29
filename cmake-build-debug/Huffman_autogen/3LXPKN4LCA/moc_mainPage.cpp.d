@@ -346,6 +346,6 @@ C:/Users/Lenovo/Desktop/Huffman1/cmake-build-debug/Huffman_autogen/3LXPKN4LCA/mo
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.2.4/mingw_64/include/QtWidgets/qwidget.h \
-  C:/Users/Lenovo/Desktop/Huffman1/src/Encode.h \
+  C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.h \
   C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h \
   C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h

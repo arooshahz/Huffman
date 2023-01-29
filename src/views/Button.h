@@ -14,7 +14,7 @@ private:
     int height{};
     QString index;
 public:
-    Button(int width, int height,QString index, QGraphicsPathItem *parent = nullptr);
+    Button(int width, int height, QString index, QGraphicsPathItem *parent = nullptr);
 
 
 protected:

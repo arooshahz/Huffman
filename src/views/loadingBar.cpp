@@ -1,13 +1,14 @@
 #include "loadingBar.h"
+
 using namespace std;
+
 loadingBar::loadingBar(int width, int height, QGraphicsPathItem *parent) : width(width), height(height),
                                                                            QGraphicsPixmapItem(parent) {
 
 
     QPixmap pixmap1(":/images/l1");
-    pixmap1= pixmap1.scaled(width, height, Qt::IgnoreAspectRatio);
+    pixmap1 = pixmap1.scaled(width, height, Qt::IgnoreAspectRatio);
     setPixmap(pixmap1);
-
 
 
     auto pixmap = new QPixmap(":/images/l1");

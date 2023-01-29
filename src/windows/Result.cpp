@@ -1,4 +1,5 @@
 #include "Result.h"
+
 Result::Result() {
 
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -12,13 +13,9 @@ Result::Result() {
     setBackgroundBrush(QPixmap(*pixmap));
 
 
-    auto loading=new loadingBar(800,800);
+    auto loading = new loadingBar(800, 800);
     scene->addItem(loading);
     loading->setPos(0, 0);
-
-
-
-
 
 
     addButton = new QTimer();
@@ -29,19 +26,23 @@ Result::Result() {
 
     setScene(scene);
 }
-Result::~Result(){
 
+Result::~Result() {
+    delete addButton;
+    delete scene;
 
 }
+
 void Result::back() {
     close();
     auto home = new Home();
     home->show();
 
 }
+
 void Result::addHomeButton() {
-    auto homeIcon = new Button(100, 100,"home");
+    auto homeIcon = new Button(100, 100, "home");
     scene->addItem(homeIcon);
-    homeIcon->setPos(350,150);
+    homeIcon->setPos(350, 150);
     connect(homeIcon, &Button::onPress, this, &Result::back);
 }

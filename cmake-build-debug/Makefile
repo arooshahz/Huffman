@@ -213,29 +213,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Encode.obj: src/Encode.cpp.obj
-.PHONY : src/Encode.obj
+src/Huffman.obj: src/Huffman.cpp.obj
+.PHONY : src/Huffman.obj
 
 # target to build an object file
-src/Encode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Encode.cpp.obj
-.PHONY : src/Encode.cpp.obj
+src/Huffman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Huffman.cpp.obj
+.PHONY : src/Huffman.cpp.obj
 
-src/Encode.i: src/Encode.cpp.i
-.PHONY : src/Encode.i
+src/Huffman.i: src/Huffman.cpp.i
+.PHONY : src/Huffman.i
 
 # target to preprocess a source file
-src/Encode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Encode.cpp.i
-.PHONY : src/Encode.cpp.i
+src/Huffman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Huffman.cpp.i
+.PHONY : src/Huffman.cpp.i
 
-src/Encode.s: src/Encode.cpp.s
-.PHONY : src/Encode.s
+src/Huffman.s: src/Huffman.cpp.s
+.PHONY : src/Huffman.s
 
 # target to generate assembly for a file
-src/Encode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Encode.cpp.s
-.PHONY : src/Encode.cpp.s
+src/Huffman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/Huffman.cpp.s
+.PHONY : src/Huffman.cpp.s
 
 src/views/Button.obj: src/views/Button.cpp.obj
 .PHONY : src/views/Button.obj
@@ -261,29 +261,29 @@ src/views/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Button.cpp.s
 .PHONY : src/views/Button.cpp.s
 
-src/views/Label.obj: src/views/Label.cpp.obj
-.PHONY : src/views/Label.obj
+src/views/label.obj: src/views/label.cpp.obj
+.PHONY : src/views/label.obj
 
 # target to build an object file
-src/views/Label.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.obj
-.PHONY : src/views/Label.cpp.obj
+src/views/label.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/label.cpp.obj
+.PHONY : src/views/label.cpp.obj
 
-src/views/Label.i: src/views/Label.cpp.i
-.PHONY : src/views/Label.i
+src/views/label.i: src/views/label.cpp.i
+.PHONY : src/views/label.i
 
 # target to preprocess a source file
-src/views/Label.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.i
-.PHONY : src/views/Label.cpp.i
+src/views/label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/label.cpp.i
+.PHONY : src/views/label.cpp.i
 
-src/views/Label.s: src/views/Label.cpp.s
-.PHONY : src/views/Label.s
+src/views/label.s: src/views/label.cpp.s
+.PHONY : src/views/label.s
 
 # target to generate assembly for a file
-src/views/Label.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/Label.cpp.s
-.PHONY : src/views/Label.cpp.s
+src/views/label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/label.cpp.s
+.PHONY : src/views/label.cpp.s
 
 src/views/loadingBar.obj: src/views/loadingBar.cpp.obj
 .PHONY : src/views/loadingBar.obj
@@ -308,30 +308,6 @@ src/views/loadingBar.s: src/views/loadingBar.cpp.s
 src/views/loadingBar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/loadingBar.cpp.s
 .PHONY : src/views/loadingBar.cpp.s
-
-src/views/textField.obj: src/views/textField.cpp.obj
-.PHONY : src/views/textField.obj
-
-# target to build an object file
-src/views/textField.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/textField.cpp.obj
-.PHONY : src/views/textField.cpp.obj
-
-src/views/textField.i: src/views/textField.cpp.i
-.PHONY : src/views/textField.i
-
-# target to preprocess a source file
-src/views/textField.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/textField.cpp.i
-.PHONY : src/views/textField.cpp.i
-
-src/views/textField.s: src/views/textField.cpp.s
-.PHONY : src/views/textField.s
-
-# target to generate assembly for a file
-src/views/textField.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Huffman.dir\build.make CMakeFiles/Huffman.dir/src/views/textField.cpp.s
-.PHONY : src/views/textField.cpp.s
 
 src/windows/Home.obj: src/windows/Home.cpp.obj
 .PHONY : src/windows/Home.obj
@@ -424,21 +400,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Encode.obj
-	@echo ... src/Encode.i
-	@echo ... src/Encode.s
+	@echo ... src/Huffman.obj
+	@echo ... src/Huffman.i
+	@echo ... src/Huffman.s
 	@echo ... src/views/Button.obj
 	@echo ... src/views/Button.i
 	@echo ... src/views/Button.s
-	@echo ... src/views/Label.obj
-	@echo ... src/views/Label.i
-	@echo ... src/views/Label.s
+	@echo ... src/views/label.obj
+	@echo ... src/views/label.i
+	@echo ... src/views/label.s
 	@echo ... src/views/loadingBar.obj
 	@echo ... src/views/loadingBar.i
 	@echo ... src/views/loadingBar.s
-	@echo ... src/views/textField.obj
-	@echo ... src/views/textField.i
-	@echo ... src/views/textField.s
 	@echo ... src/windows/Home.obj
 	@echo ... src/windows/Home.i
 	@echo ... src/windows/Home.s

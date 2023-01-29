@@ -1,5 +1,5 @@
-CMakeFiles/Huffman.dir/src/views/Label.cpp.obj: \
- C:\Users\Lenovo\Desktop\Huffman1\src\views\Label.cpp \
+CMakeFiles/Huffman.dir/src/views/label.cpp.obj: \
+ C:\Users\Lenovo\Desktop\Huffman1\src\views\label.cpp \
  C:/Qt/6.2.4/mingw_64/include/QtGui/QFont \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.2.4/mingw_64/include/QtGui/qtguiglobal.h \

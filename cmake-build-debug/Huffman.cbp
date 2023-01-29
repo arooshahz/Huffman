@@ -141,10 +141,10 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/resources.qrc">
 			<Option target="Huffman"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/Encode.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.cpp">
 			<Option target="Huffman"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/Encode.h">
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/Huffman.h">
 			<Option target="Huffman"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.cpp">
@@ -153,22 +153,16 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Button.h">
 			<Option target="Huffman"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.cpp">
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/label.cpp">
 			<Option target="Huffman"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/Label.h">
+		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/label.h">
 			<Option target="Huffman"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.cpp">
 			<Option target="Huffman"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/loadingBar.h">
-			<Option target="Huffman"/>
-		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.cpp">
-			<Option target="Huffman"/>
-		</Unit>
-		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/views/textField.h">
 			<Option target="Huffman"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/Huffman1/src/windows/Home.cpp">

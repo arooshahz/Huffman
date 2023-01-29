@@ -1,12 +1,11 @@
-#ifndef HUFFMAN_ENCODE_H
-#define HUFFMAN_ENCODE_H
-
+#ifndef HUFFMAN_HUFFMAN_H
+#define HUFFMAN_HUFFMAN_H
+#include "QObject"
 #include <fstream>
 #include <queue>
 #include <string>
 #include <vector>
-#include "QObject"
-//#include "windows/mainPage.h"
+
 
 using namespace std;
 
@@ -22,7 +21,7 @@ struct Node {
     }
 };
 
-class Encode : public QObject{
+class Huffman : public QObject {
     class Compare {
     public:
         bool operator()(Node *l, Node *r) {
@@ -44,10 +43,9 @@ public:
 
 
     // Constructor
-    Encode(QString inFileName, QString outFileName);
+    Huffman(QString inFileName, QString outFileName);
 
-
-    ~Encode();
+    ~Huffman();
 
     void compress();
 
@@ -84,4 +82,4 @@ public:
 
 };
 
-#endif // HUFFMAN_ENCODE_H
+#endif // HUFFMAN_HUFFMAN_H
